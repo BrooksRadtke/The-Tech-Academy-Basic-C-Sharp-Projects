@@ -29,11 +29,17 @@ namespace PackageShippingProgram
             //if the package is less than 50, continue with the process
             else
             {
-                //checks the package meets the height requirement
+                Console.WriteLine("Please enter the package width: ");
+                int width = Convert.ToInt32(Console.ReadLine());
+
                 Console.WriteLine("Please enter the package height: ");
                 int height = Convert.ToInt32(Console.ReadLine());
 
-                if(height > 50)
+                Console.WriteLine("Please enter the package length: ");
+                int length = Convert.ToInt32(Console.ReadLine());
+
+                //checks the package meets the volume requirement
+                if (width + height + length > 50)
                 {
                     Console.WriteLine("Package too big to be shipped via Package Express.");
                     Console.ReadLine();
@@ -41,12 +47,6 @@ namespace PackageShippingProgram
                 //if the package height is less than 50, continue with the process
                 else
                 {   
-                    Console.WriteLine("Please enter the package width: ");
-                    int width = Convert.ToInt32(Console.ReadLine());
-
-                    Console.WriteLine("Please enter the package length: ");
-                    int length = Convert.ToInt32(Console.ReadLine());
-
                     //variable included in this 'else' statement because
                     //they are local to each block of the branches. 
                     //Next time, store globally....
