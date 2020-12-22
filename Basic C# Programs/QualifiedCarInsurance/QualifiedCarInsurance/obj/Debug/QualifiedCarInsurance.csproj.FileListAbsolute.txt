@@ -1,0 +1,7 @@
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\QualifiedCarInsurance\QualifiedCarInsurance\obj\Debug\QualifiedCarInsurance.csprojAssemblyReference.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\QualifiedCarInsurance\QualifiedCarInsurance\obj\Debug\QualifiedCarInsurance.csproj.CoreCompileInputs.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\QualifiedCarInsurance\QualifiedCarInsurance\bin\Debug\QualifiedCarInsurance.exe.config
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\QualifiedCarInsurance\QualifiedCarInsurance\bin\Debug\QualifiedCarInsurance.exe
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\QualifiedCarInsurance\QualifiedCarInsurance\bin\Debug\QualifiedCarInsurance.pdb
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\QualifiedCarInsurance\QualifiedCarInsurance\obj\Debug\QualifiedCarInsurance.exe
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\QualifiedCarInsurance\QualifiedCarInsurance\obj\Debug\QualifiedCarInsurance.pdb
