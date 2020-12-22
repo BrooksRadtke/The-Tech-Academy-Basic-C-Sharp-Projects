@@ -24,7 +24,8 @@ namespace Student_Daily_Report
             int pageNum = Convert.ToInt32(pageNumber);
 
             Console.WriteLine("Do you need help with anything? True or False");
-            string getHelp = Console.ReadLine();
+            string needHelp = Console.ReadLine();
+            bool getHelp = Convert.ToBoolean(needHelp);
 
             Console.WriteLine("Were there any positive experiences that you would like to share?" +
                 " Please give specifics.");
