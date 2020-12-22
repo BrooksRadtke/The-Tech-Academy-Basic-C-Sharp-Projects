@@ -1,0 +1,6 @@
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\PackageShippingProgram\PackageShippingProgram\bin\Debug\PackageShippingProgram.exe.config
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\PackageShippingProgram\PackageShippingProgram\bin\Debug\PackageShippingProgram.exe
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\PackageShippingProgram\PackageShippingProgram\bin\Debug\PackageShippingProgram.pdb
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\PackageShippingProgram\PackageShippingProgram\obj\Debug\PackageShippingProgram.csproj.CoreCompileInputs.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\PackageShippingProgram\PackageShippingProgram\obj\Debug\PackageShippingProgram.exe
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\PackageShippingProgram\PackageShippingProgram\obj\Debug\PackageShippingProgram.pdb
