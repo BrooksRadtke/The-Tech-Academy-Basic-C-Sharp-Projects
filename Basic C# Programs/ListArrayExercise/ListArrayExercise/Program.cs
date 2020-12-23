@@ -23,7 +23,7 @@ namespace ListArrayExercise
                 arrayInput = Convert.ToInt32(Console.ReadLine());
 
                 //checks if input was within range
-                if (arrayInput <= fruitArray.Length)
+                if (arrayInput <= fruitArray.Length-1)
                 {
                     isCorrect = true;
                     Console.WriteLine(fruitArray[arrayInput]);
@@ -49,7 +49,7 @@ namespace ListArrayExercise
                 //takes in user input value
                 arrayInput2 = Convert.ToInt32(Console.ReadLine());
 
-                if (arrayInput2 <= numArray.Length)
+                if (arrayInput2 <= numArray.Length-1)
                 {
                     isCorrect2 = true;
                     Console.WriteLine(numArray[arrayInput2]);
