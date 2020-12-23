@@ -36,7 +36,7 @@ namespace IncomeComparison
             Console.ReadLine();
 
             int annualSalary2 = person2Rate * weeklyHours2 * 52;
-            Console.WriteLine("Annual salary of person 1: " + annualSalary2);
+            Console.WriteLine("Annual salary of person 2: " + annualSalary2);
             Console.ReadLine();
 
             bool compareIncome = annualSalary1 > annualSalary2;

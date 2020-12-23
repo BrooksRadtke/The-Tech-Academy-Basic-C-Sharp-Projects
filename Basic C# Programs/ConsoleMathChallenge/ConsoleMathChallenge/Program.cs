@@ -26,7 +26,7 @@ namespace ConsoleMathChallenge
             Console.WriteLine("Ah yes, " + x + " * 50 is " + result);
             Console.ReadLine();
 
-            Console.WriteLine("Let's try something else. Enter a numer to add 25 to:");
+            Console.WriteLine("Let's try something else. Enter a number to add 25 to:");
             y = Convert.ToInt32(Console.ReadLine());
 
             result = y + 25;

@@ -1,0 +1,7 @@
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringbuilderExercise\StringbuilderExercise\bin\Debug\StringbuilderExercise.exe.config
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringbuilderExercise\StringbuilderExercise\bin\Debug\StringbuilderExercise.exe
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringbuilderExercise\StringbuilderExercise\bin\Debug\StringbuilderExercise.pdb
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringbuilderExercise\StringbuilderExercise\obj\Debug\StringbuilderExercise.csprojAssemblyReference.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringbuilderExercise\StringbuilderExercise\obj\Debug\StringbuilderExercise.csproj.CoreCompileInputs.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringbuilderExercise\StringbuilderExercise\obj\Debug\StringbuilderExercise.exe
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringbuilderExercise\StringbuilderExercise\obj\Debug\StringbuilderExercise.pdb
