@@ -15,6 +15,8 @@ namespace ListArrayExercise
             string[] fruitArray = { "apple", "banana", "cherry", "dates", "kiwi" };
             Console.WriteLine("Hi there. I have 5 fruit items in an array container. " +
                 "Please enter a number between 0 and 4 to display one:");
+
+            //takes in user input value
             arrayInput = Convert.ToInt32(Console.ReadLine());
             
             //checks if input was within range
@@ -38,6 +40,8 @@ namespace ListArrayExercise
             int[] numArray = { 23, 41, 5, 9690, 173029842 };
             Console.WriteLine("Thank you. Now I have 5 number items in an array container. " +
                 "Please enter a number between 0 and 4 to display one:");
+
+            //takes in user input value
             arrayInput2 = Convert.ToInt32(Console.ReadLine());
 
             if(arrayInput2 <= 4 && arrayInput2 >= 0)
@@ -50,7 +54,7 @@ namespace ListArrayExercise
                 //response if answer doesn't have a value
                 Console.WriteLine("Sorry. Please input a number between 0 and 4" +
                     " to see an item.");
-                arrayInput = Convert.ToInt32(Console.ReadLine());
+                arrayInput2 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(numArray[arrayInput2]);
                 Console.ReadLine();
             }
@@ -66,6 +70,7 @@ namespace ListArrayExercise
 
             Console.WriteLine("Excellent. Finally, I have 5 fruit items in list container. " +
                 "Please enter a number between 0 and 4 to display one:");
+            //takes in user input value
             listInput = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(stringList[listInput]);
             Console.ReadLine();
