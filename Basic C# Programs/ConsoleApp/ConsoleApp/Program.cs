@@ -65,7 +65,7 @@ namespace ConsoleApp
             //PART 4
             //Create a list of strings where each item is unique
             string userInput;
-            List<string> fruitList = new List<string> { "apple", "banana", "cherrie", "dates", "kiwi" };
+            List<string> fruitList = new List<string> { "apple", "banana", "cherry", "dates", "kiwi" };
 
             //asks the user to input text to search the list
             Console.WriteLine("Please enter the name of a common fruit:");
@@ -77,13 +77,13 @@ namespace ConsoleApp
             {
                 //takes user input for searching list
                 userInput = Convert.ToString(Console.ReadLine());
-                for(int i = 0; i < fruitList; i++)
+                for(int i = 0; i < fruitList.Count(); i++)
                 {
                     if (fruitList[i].Contains(userInput))
                     {
                         //once true, break the while loop
                         gotFruit = true;
-                        Console.WriteLine(fruitList);
+                        Console.WriteLine(userInput + "" + i);
                         Console.ReadLine();
                     }
                     else
@@ -91,8 +91,8 @@ namespace ConsoleApp
                         //Displays if the user input doesn't match an index string
                         Console.WriteLine("Sorry, please try a different fruit.");
                     }
+                    break;
                 }
-                
             }
             Console.ReadLine();
         }
