@@ -19,7 +19,7 @@ namespace ConsoleApp
             for(int i = 0; i < stringArray.Length; i++)
             {
                 //ask the user to input text
-                Console.WriteLine("How would you describe fruit? Such as 'apples are...'");
+                Console.WriteLine("How would you describe fruit? Such as \'{i}\'", stringArray);
                 stringArray[i] = stringArray[i] + Console.ReadLine();
                 
             }
@@ -79,19 +79,19 @@ namespace ConsoleApp
                 userInput = Convert.ToString(Console.ReadLine());
                 for(int i = 0; i < fruitList.Count(); i++)
                 {
-                    if (fruitList[i].Contains(userInput))
+                    if (userInput == fruitList[i])
                     {
                         //once true, break the while loop
                         gotFruit = true;
-                        Console.WriteLine(userInput + "" + i);
+                        Console.WriteLine(userInput + " - " + i);
                         Console.ReadLine();
+                        break;
                     }
                     else
                     {
                         //Displays if the user input doesn't match an index string
                         Console.WriteLine("Sorry, please try a different fruit.");
                     }
-                    break;
                 }
             }
             Console.ReadLine();
