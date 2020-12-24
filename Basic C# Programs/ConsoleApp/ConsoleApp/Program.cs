@@ -19,7 +19,7 @@ namespace ConsoleApp
             for(int i = 0; i < stringArray.Length; i++)
             {
                 //ask the user to input text
-                Console.WriteLine("How would you describe fruit? Such as \'{i}\'", stringArray);
+                Console.WriteLine("How would you describe fruit? Such as \'{0}\'", stringArray);
                 stringArray[i] = stringArray[i] + Console.ReadLine();
                 
             }
@@ -65,24 +65,24 @@ namespace ConsoleApp
             //PART 4
             //Create a list of strings where each item is unique
             string userInput;
-            List<string> fruitList = new List<string> { "apple", "banana", "cherry", "dates", "kiwi" };
+            List<string> nameList = new List<string> { "John", "Jacob", "Jingle-Heimer", "Schmitt", "Fred" };
 
             //asks the user to input text to search the list
-            Console.WriteLine("Please enter the name of a common fruit:");
+            Console.WriteLine("Please enter a name like, \"John\", \"Jacob\", \"Jingle-Heimer\",\n \"Schmitt\", \"Fred\", or something else:");
 
             //code that loops to check if input item was on list,
             //if not, continues loop
-            bool gotFruit = false;
-            while(!gotFruit)
+            bool gotName = false;
+            while(!gotName)
             {
                 //takes user input for searching list
                 userInput = Convert.ToString(Console.ReadLine());
-                for(int i = 0; i < fruitList.Count(); i++)
+                for(int i = 0; i < nameList.Count(); i++)
                 {
-                    if (userInput == fruitList[i])
+                    if (userInput == nameList[i])
                     {
                         //once true, break the while loop
-                        gotFruit = true;
+                        gotName = true;
                         Console.WriteLine(userInput + " - " + i);
                         Console.ReadLine();
                         break;
@@ -90,7 +90,7 @@ namespace ConsoleApp
                     else
                     {
                         //Displays if the user input doesn't match an index string
-                        Console.WriteLine("Sorry, please try a different fruit.");
+                        Console.WriteLine("Sorry, please try a different name.");
                     }
                 }
             }
