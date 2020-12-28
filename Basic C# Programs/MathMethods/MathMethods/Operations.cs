@@ -8,29 +8,24 @@ namespace MathMethods
 {
     public class Operations
     {
-        
-
-        public Addition()
+        public int Addition(int x)
         {
             // Adds userInput to itself
-            int userInput = Convert.ToInt32(Console.ReadLine());
-            int sum = userInput + userInput;
+            int sum = x + x;
             return sum; 
         }
 
-        public Multiply()
+        public int Multiply(int x)
         {
             // Multiplies userInput by itself
-            int userInput = Convert.ToInt32(Console.ReadLine());
-            int product = userInput * userInput;
+            int product = x * x;
             return product;
         }
         
-        public Divide()
+        public int Divide(int x)
         {
             // Divides userInput by itself
-            int userInput = Convert.ToInt32(Console.ReadLine());
-            int divide = userInput / userInput;
+            int divide = x / x;
             return divide;
         }
     }

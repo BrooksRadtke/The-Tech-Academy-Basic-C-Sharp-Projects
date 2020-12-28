@@ -14,16 +14,18 @@ namespace MathMethods
                 "done on:");
             int userInput = Convert.ToInt32(Console.ReadLine());
 
+            Operations obj1 = new Operations();
 
-            Operations.Addition(userInput);
-            Console.WriteLine();
+            obj1.Addition(userInput);
+            Console.WriteLine(obj1.Addition(userInput));
+
+            obj1.Multiply(userInput);
+            Console.WriteLine(obj1.Multiply(userInput));
+
+            obj1.Divide(userInput);
+            Console.WriteLine(obj1.Divide(userInput));
 
             Console.ReadLine();
-        }
-
-        public Addition(Main)
-        {
-            Console.WriteLine();
         }
     }
 }
