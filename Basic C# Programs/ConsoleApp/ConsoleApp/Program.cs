@@ -9,51 +9,51 @@ namespace ConsoleApp
     class Program
     {
         static void Main()
-        {   //*PART 1*
-            //Create a 1-dimensional string[]
+        {   // *PART 1*
+            // Create a 1-dimensional string[]
             string[] stringArray = { "apples - ", "bananas - ", "cherries - ", "dates - ", "kiwi - " };
 
-            //Create a loop that iterates through the array and adds
-            //user input at the end of each string
+            // Create a loop that iterates through the array and adds
+            // User input at the end of each string
             
             for(int i = 0; i < stringArray.Length; i++)
             {
-                //ask the user to input text
+                // Ask the user to input text
                 Console.WriteLine("How would you describe fruit? Such as \'{0}\'", stringArray);
                 stringArray[i] = stringArray[i] + Console.ReadLine();
                 
             }
 
-            //create a loop that prints each string in the [] on a separate line
+            // Create a loop that prints each string in the [] on a separate line
             for(int i = 0; i < stringArray.Length; i++)
             {
                 Console.WriteLine(stringArray[i]);
             }
             Console.ReadLine();
 
-            //*PART 2*
-            //create an infinite loop
+            // *PART 2*
+            // create an infinite loop
             bool whileTrue = true;
             while(whileTrue)                 
             {
-                //a while loop without a condition to switch to the other state
-                //continues the loop
+                // a while loop without a condition to switch to the other state
+                // continues the loop
                 Console.WriteLine("Always true!!");
                 Console.ReadLine();
                 whileTrue = false;
             }
             
-            //*PART 3*
-            //Create comparison loop with '<'
+            // *PART 3*
+            // Create comparison loop with '<'
             for(int j = 0; j < 3; j++)
             {
-                //this comparison loop will print the string 3x
+                // this comparison loop will print the string 3x
                 Console.WriteLine("And they just keep coming");
             }
             Console.ReadLine();
-            //Create comparison loop with '<='
-            //increments the value of 'n' per loop until its value
-            //is <= to 4
+            // Create comparison loop with '<='
+            // increments the value of 'n' per loop until its value
+            // is <= to 4
             int n = 0;
             for(int k = 0; k <= 4; k++ )
             {
@@ -62,38 +62,98 @@ namespace ConsoleApp
             }
             Console.ReadLine();
 
-            //PART 4
-            //Create a list of strings where each item is unique
+            // *PART 4*
+            // Create a list of strings where each item is unique
             string userInput;
             List<string> nameList = new List<string> { "John", "Jacob", "Jingle-Heimer", "Schmitt", "Fred" };
 
-            //asks the user to input text to search the list
+            // asks the user to input text to search the list
             Console.WriteLine("Please enter a name like, \"John\", \"Jacob\", \"Jingle-Heimer\",\n \"Schmitt\", \"Fred\", or something else:");
 
-            //code that loops to check if input item was on list,
-            //if not, continues loop
+            // code that loops to check if input item was on list,
+            // if not, continues loop
             bool gotName = false;
             while(!gotName)
             {
                 //takes user input for searching list
                 userInput = Convert.ToString(Console.ReadLine());
-                for(int i = 0; i < nameList.Count(); i++)
+                if(nameList.Contains(userInput))
                 {
-                    if (userInput == nameList[i])
+                    // loops through the entire list by the number of indexes
+                    for (int i = 0; i < nameList.Count(); i++)
                     {
-                        //once true, break the while loop
-                        gotName = true;
-                        Console.WriteLine(userInput + " - " + i);
-                        Console.ReadLine();
+                        if (userInput == nameList[i])
+                        {
+                            //once true, break the while loop
+                            gotName = true;
+                            Console.WriteLine(userInput + " - " + i);
+                            Console.ReadLine();
+                            break;
+                        }
+                    }
+                }
+                else
+                {
+                    // Displays if the user input doesn't match an index string
+                    Console.WriteLine("Sorry, please try a different name.");
+                }
+            }
+
+            // *PART 5*
+            // Add a list of strings with at least two identical values
+            List<string> myList2 = new List<string> { "New Years Day", "Valentines", 
+                "4th of July", "Christmas Day", "Christmas Day" };
+
+            // Create prompt asking user to search of it
+            Console.WriteLine("Please search for an American holiday, but first search \"Christmas Day\".");
+
+            // Create a loop that searches through the list and displays the matching indexes
+            bool gotHoliday = false;
+            while(!gotHoliday)
+            {
+                userInput = Convert.ToString(Console.ReadLine());
+                if(myList2.Contains(userInput))
+                {
+                    // Loops through the entire list by the number of indexes
+                    for(int i = 0; i < myList2.Count(); i++)
+                    {
+                        if(userInput == myList2[i])
+                        {
+                            gotHoliday = true;
+                            Console.Write(userInput + " - " + i + " ");
+                        }
+                    }
+                }
+                else
+                {
+                    // Displays if the user input doesn't match an index string
+                    Console.WriteLine("Sorry, please try a different holiday name.");
+                }
+            }
+
+            // *PART 6*
+            // Create a list that contains at least one identical string with another
+            List<string> myList3 = new List<string> { "pig", "horse", "duck", "cow", "pig" };
+
+            // Create a foreach loop that evaluates the list, 
+            // and returns a message if a match is found within it
+
+            foreach(string animal in myList3)
+            {
+                for(int i = 0; i < myList3.Count; i++)
+                {
+                    if (animal == myList3[i])
+                    {
+                        Console.WriteLine(animal + " has already appeared in the list before.");
                         break;
                     }
                     else
                     {
-                        //Displays if the user input doesn't match an index string
-                        Console.WriteLine("Sorry, please try a different name.");
+                        Console.WriteLine("There are no two animals on the farm.");
                     }
                 }
             }
+
             Console.ReadLine();
         }
     }
