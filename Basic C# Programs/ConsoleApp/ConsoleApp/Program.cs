@@ -135,25 +135,26 @@ namespace ConsoleApp
             // Create a list that contains at least one identical string with another
             List<string> myList3 = new List<string> { "pig", "horse", "duck", "cow", "pig" };
 
+            // Create a list to filter duplicated out of myList3
+            List<string> myFilteredList3 = new List<string> { };
             // Create a foreach loop that evaluates the list, 
             // and returns a message if a match is found within it
 
             foreach(string animal in myList3)
             {
-                for(int i = 0; i < myList3.Count; i++)
+                // Checks if the filtere list contains the current string
+                // If it does, it is a duplicate
+                if(myFilteredList3.Contains(animal))
                 {
-                    if (animal == myList3[i])
-                    {
-                        Console.WriteLine(animal + " has already appeared in the list before.");
-                        break;
-                    }
-                    else
-                    {
-                        Console.WriteLine("There are no two animals on the farm.");
-                    }
+                    Console.WriteLine("{0} has already appeared in the list", animal);
+                }
+                else // If the filtered list does not contain the current string,
+                    // then add it to the list and state it is not a duplicate
+                {
+                    myFilteredList3.Add(animal);
+                    Console.WriteLine("This is the first time {0} has appeared in the list", animal);
                 }
             }
-
             Console.ReadLine();
         }
     }
