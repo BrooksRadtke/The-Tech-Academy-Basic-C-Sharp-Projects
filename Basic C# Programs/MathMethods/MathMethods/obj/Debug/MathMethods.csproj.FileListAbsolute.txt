@@ -1,0 +1,2 @@
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathMethods\MathMethods\obj\Debug\MathMethods.csprojAssemblyReference.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathMethods\MathMethods\obj\Debug\MathMethods.csproj.CoreCompileInputs.cache
