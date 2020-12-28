@@ -1,0 +1,7 @@
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ExceptionHandlingApp\ExceptionHandlingApp\bin\Debug\ExceptionHandlingApp.exe.config
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ExceptionHandlingApp\ExceptionHandlingApp\bin\Debug\ExceptionHandlingApp.exe
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ExceptionHandlingApp\ExceptionHandlingApp\bin\Debug\ExceptionHandlingApp.pdb
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ExceptionHandlingApp\ExceptionHandlingApp\obj\Debug\ExceptionHandlingApp.csprojAssemblyReference.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ExceptionHandlingApp\ExceptionHandlingApp\obj\Debug\ExceptionHandlingApp.csproj.CoreCompileInputs.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ExceptionHandlingApp\ExceptionHandlingApp\obj\Debug\ExceptionHandlingApp.exe
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ExceptionHandlingApp\ExceptionHandlingApp\obj\Debug\ExceptionHandlingApp.pdb
