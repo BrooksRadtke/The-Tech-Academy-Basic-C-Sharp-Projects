@@ -13,9 +13,14 @@ namespace VoidMethod
             // Instantiate the class
             Operations obj1 = new Operations();
 
-            // Pass in two numbers
-            // How can it return values if VOID?
-            Console.WriteLine(obj1.Assignment(5, 3));
+            // Call the method in the class, passing in 2 numbers
+            obj1.Assignment();
+            Console.ReadLine();
+
+            // Call the method in the class, specify parameters by name
+            // This changes the default values to specified ones
+            obj1.Assignment(10, 20);
+            Console.ReadLine();
         }
     }
 }
