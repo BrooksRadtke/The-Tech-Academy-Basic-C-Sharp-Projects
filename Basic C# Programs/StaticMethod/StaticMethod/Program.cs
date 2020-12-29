@@ -8,13 +8,19 @@ namespace StaticMethod
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Operations obj1 = new Operations();
-
+            // Non-static instantiation
+            //Operations obj1 = new Operations();
+            
             Console.WriteLine("Input a number to be divided by 2:");
             int x = Convert.ToInt32(Console.ReadLine());
-            obj1.DividedBy(x);
+            // Static instantiation
+            Operations.DividedBy(x);
+
+            // Call overloaded method with output 
+            Operations.DividedBy(out x);
+            Console.WriteLine(x);
 
             Console.ReadLine();
         }
