@@ -9,7 +9,7 @@ namespace VoidMethod
     class Operations
     {
         // Create a void method that takes 2 assigned parameters
-        public void Assignment(int x = 5, int y = 3)
+        public void Assignment(int x, int y)
         {
             // Do a math operation on parm 1
             int sum = x + 5;
