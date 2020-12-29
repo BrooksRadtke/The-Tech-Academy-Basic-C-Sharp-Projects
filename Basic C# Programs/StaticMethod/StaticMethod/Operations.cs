@@ -16,12 +16,13 @@ namespace StaticMethod
             Console.WriteLine(x + " / 2 = " + product);
         }
 
-        // Create a method without parameters
+        // Create a method with output parameters
         // Overload a method
         // Declare class static
-        public static void DividedBy()
+        public static void DividedBy(out int x)
         {
-
+            x = 30;
+            Console.WriteLine();
         }
     }
 }
