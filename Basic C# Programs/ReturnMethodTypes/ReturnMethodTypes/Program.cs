@@ -9,7 +9,7 @@ namespace ReturnMethodTypes
     class Program
     {
         static void Main(string[] args)
-        {
+        {   // **STEP 226**
             // Instantiate the class and pass in an int
             Operations obj1 = new Operations();
             obj1.Addition(5);
@@ -22,6 +22,7 @@ namespace ReturnMethodTypes
             Console.WriteLine(obj2.Decimal(12.75m));
             Console.ReadLine();
 
+            // Passing in string, return ing int if possible
             Operations obj3 = new Operations();
             obj3.NumberName("ten");
             Console.WriteLine(obj3.NumberName("ten"));

@@ -21,7 +21,7 @@ namespace ReturnMethodTypes
             return difference;
         }
 
-        public string NumberName(string x)
+        public int NumberName(string x)
         {
             int length = Int32.Parse(x);
             int product = length * 10;
