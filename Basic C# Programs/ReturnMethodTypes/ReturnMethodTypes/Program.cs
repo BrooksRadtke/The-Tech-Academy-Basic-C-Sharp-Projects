@@ -24,8 +24,8 @@ namespace ReturnMethodTypes
 
             // Passing in string, return ing int if possible
             Operations obj3 = new Operations();
-            obj3.NumberName("ten");
-            Console.WriteLine(obj3.NumberName("ten"));
+            obj3.NumberName("10");
+            Console.WriteLine(obj3.NumberName("10"));
             Console.ReadLine();
 
         }
