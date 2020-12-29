@@ -9,23 +9,23 @@ namespace ReturnMethodTypes
     class Program
     {
         static void Main(string[] args)
-        {   // **STEP 226**
+        {   // Demonstrates Method Overloading
             // Instantiate the class and pass in an int
             Operations obj1 = new Operations();
-            obj1.Addition(5);
-            Console.WriteLine(obj1.Addition(5));
+            obj1.Assignment(5);
+            Console.WriteLine(obj1.Assignment(5));
             Console.ReadLine();
 
             // Passing in decimal, returning int
             Operations obj2 = new Operations();
-            obj2.Decimal(12.75m);
-            Console.WriteLine(obj2.Decimal(12.75m));
+            obj2.Assignment(12.75m);
+            Console.WriteLine(obj2.Assignment(12.75m));
             Console.ReadLine();
 
             // Passing in string, return ing int if possible
             Operations obj3 = new Operations();
-            obj3.NumberName("10");
-            Console.WriteLine(obj3.NumberName("10"));
+            obj3.Assignment("10");
+            Console.WriteLine(obj3.Assignment("10"));
             Console.ReadLine();
 
         }

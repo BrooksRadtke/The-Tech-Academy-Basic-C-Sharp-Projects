@@ -9,19 +9,19 @@ namespace ReturnMethodTypes
     class Operations
     {
         // Create a math operation class for an int
-        public int Addition(int x)
+        public int Assignment(int x)
         {
             int sum = x + 5;
             return sum;
         }
 
-        public decimal Decimal(decimal x)
+        public decimal Assignment(decimal x)
         {
             int difference = (int)(x - 5);
             return difference;
         }
 
-        public int NumberName(string x)
+        public int Assignment(string x)
         {
             int length = Int32.Parse(x);
             int product = length * 10;
