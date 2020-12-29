@@ -8,9 +8,9 @@ namespace OptParmMethod
 {
     class Operations
     {
-        public int Addition(int x, int y = 1)
+        public int Addition(int x, int z = 1)
         {
-            int sum = x + y;
+            int sum = x + z;
             return sum;
         }
     }

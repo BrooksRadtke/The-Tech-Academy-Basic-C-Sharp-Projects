@@ -18,13 +18,28 @@ namespace OptParmMethod
             int x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("You may enter a second number, or skip by " +
                 "entering nothing:");
-            int y = Convert.ToInt32(Console.ReadLine());
+            string y = Console.ReadLine();
 
-            // Pass values to method
-            obj1.Addition(x,y);
+            //Checks if input for 2ns number was null or empty
+            bool b1 = string.IsNullOrEmpty(y);
 
-            Console.WriteLine(x + " + " + y + " = " + obj1.Addition(x,y), obj1.Addition(x, y));
-            Console.ReadLine();
+            // Converts value of input if !null
+            if(b1 != true)
+            {
+                int z = Convert.ToInt32(y);
+
+                // Pass values to method
+                obj1.Addition(x, z);
+
+                Console.WriteLine(x + " + " + z + " = " + obj1.Addition(x, z), obj1.Addition(x, z));
+                Console.ReadLine();
+            }
+            else
+            {
+                // Passes in default value!
+                Console.WriteLine(x + " + 1 = " + obj1.Addition(x), obj1.Addition(x));
+                Console.ReadLine();
+            }
         }
     }
 }
