@@ -24,6 +24,38 @@ namespace AbstractClass
 
             emp.Quit();
             Console.ReadLine();
+
+            // Instantiate 2 employee objects and compare id properties
+            Employee employeeOne = new Employee();
+            Employee employeeTwo = new Employee();
+            employeeOne.firstName = "Joey";
+            employeeOne.lastName = "Docker";
+            employeeOne.employeeID = 123;
+
+            employeeTwo.firstName = "Bob";
+            employeeTwo.lastName = "Malone";
+            employeeTwo.employeeID = 123;
+
+            // Compare the two employee ids
+            if(employeeOne.employeeID == employeeTwo.employeeID)
+            {
+                Console.WriteLine("True");
+                Console.ReadLine();
+            }
+
+            if (employeeOne.employeeID != employeeTwo.employeeID)
+            {
+                Console.WriteLine("False");
+                Console.ReadLine();
+            }
+
+            // Instantiate an Employee obj with type string as generic parameter
+            // Assign a list of strings
+            //List<string> things = new List<string>();
+            //person1.things.Add("Coffee");
+            //person1.things.Add("Computer");
+            //person1.things.Add("Pay check");
+
         }
     }
 }

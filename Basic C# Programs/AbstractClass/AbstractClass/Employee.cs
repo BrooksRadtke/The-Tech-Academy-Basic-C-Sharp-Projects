@@ -10,6 +10,8 @@ namespace AbstractClass
     class Employee : Person, IQuittable
     {
         public int employeeID;
+        // Add generic list property to Employee class called "Things"
+        //public List<T> things = new List<T>(); 
 
         // Overide SayName() to implement
         public override void SayName()
@@ -24,14 +26,22 @@ namespace AbstractClass
                 "written notice of my resignation.");
         }
 
-        // Overload "==" so it checks if two employee objs are equal 
-        // By comparing their ID properties
+        //Overload "==" so it checks if two employee objs are equal
+        //By comparing their ID properties
 
-        public static Employee operator== (Employee employee)
+        public static Boolean operator== (Employee firstEmployee, Employee secondEmployee)
         {
-            if(employee.employeeID == employee.employeeID)
+            if (firstEmployee.employeeID == secondEmployee.employeeID)
             {
-                return;
+                return true;
+            }
+        }
+
+        public static Boolean operator!= (Employee firstEmployee, Employee secondEmployee)
+        {
+            if (firstEmployee.employeeID != secondEmployee.employeeID)
+            {
+                return false;
             }
         }
     }
