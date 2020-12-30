@@ -7,12 +7,23 @@ using System.Threading.Tasks;
 namespace AbstractClass
 {
     // Create "Employee" class that inherits from "Person"
-    class Employee : Person, IQuittable
+    // Make employee class take a generic parameter
+    class Employee<T> : Person, IQuittable
     {
         public int employeeID;
 
         // Add generic list property to Employee class called "Things"
-        //public List<T> things = new List<T>(); 
+        // that matches class generic type
+        public List<T> Things = new List<T>();
+
+        // Instantiate an Employee obj with type string as generic parameter
+        // Assign a list of strings
+        public Things<string> stringThings = new Things<string>()
+        {
+            "Coffee",
+            "Computer",
+            "Pay-Check"
+        };
 
         // Overide SayName() to implement
         public override void SayName()
@@ -30,7 +41,7 @@ namespace AbstractClass
         //Overload "==" so it checks if two employee objs are equal
         //By comparing their ID properties
 
-        public static Boolean operator== (Employee firstEmployee, Employee secondEmployee)
+        public static Boolean operator== (Employee<T> firstEmployee, Employee<T> secondEmployee)
         {
             if (firstEmployee.employeeID == secondEmployee.employeeID)
             {
@@ -42,7 +53,7 @@ namespace AbstractClass
             }
         }
 
-        public static Boolean operator!= (Employee firstEmployee, Employee secondEmployee)
+        public static Boolean operator!= (Employee<T> firstEmployee, Employee<T> secondEmployee)
         {
             if (firstEmployee.employeeID != secondEmployee.employeeID)
             {
