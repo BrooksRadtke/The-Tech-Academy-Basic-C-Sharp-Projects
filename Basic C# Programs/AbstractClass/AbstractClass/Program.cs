@@ -18,8 +18,11 @@ namespace AbstractClass
 
             // Call SayName() on object
             person1.SayName();
+
             // Use polymorphism to create an obj of IQuittable and call Quit()
-            person1.Quit(person1);
+            IQuittable emp = new Employee();
+
+            emp.Quit();
             Console.ReadLine();
         }
     }

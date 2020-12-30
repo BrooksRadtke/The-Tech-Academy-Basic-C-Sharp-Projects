@@ -9,14 +9,14 @@ namespace AbstractClass
     // Create "Employee" class that inherits from "Person"
     class Employee : Person, IQuittable
     {
-        // Overide SayName() to impliment
+        // Overide SayName() to implement
         public override void SayName()
         {
             Console.WriteLine("Hello, my name is " + firstName + " " + lastName);
         }
 
-        // Inherit the interface and impliment method
-        public void Quit(Employee employee)
+        // Inherit the interface and implement method
+        public void Quit()
         {
             Console.WriteLine("Please accept this letter as a " +
                 "written notice of my resignation.");
