@@ -12,7 +12,7 @@ namespace AbstractClass
         // Overide SayName() to impliment
         public override void SayName()
         {
-            base.SayName();
+            Console.WriteLine("Hello, my name is " + firstName + " " + lastName);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace AbstractClass
         // Implimented virtually for overide during inheritance
         public virtual void SayName()
         {
-            Console.WriteLine("Hello, my name is " + firstName + " " + lastName);
+            
         }
     }
 }
