@@ -51,10 +51,7 @@ namespace AbstractClass
 
             // Instantiate an Employee obj with type string as generic parameter
             // Assign a list of strings
-            //List<string> things = new List<string>();
-            //person1.things.Add("Coffee");
-            //person1.things.Add("Computer");
-            //person1.things.Add("Pay check");
+           
 
         }
     }

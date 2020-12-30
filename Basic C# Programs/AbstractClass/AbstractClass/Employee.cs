@@ -10,6 +10,7 @@ namespace AbstractClass
     class Employee : Person, IQuittable
     {
         public int employeeID;
+
         // Add generic list property to Employee class called "Things"
         //public List<T> things = new List<T>(); 
 
@@ -35,6 +36,10 @@ namespace AbstractClass
             {
                 return true;
             }
+            else
+            {
+                return false;
+            }
         }
 
         public static Boolean operator!= (Employee firstEmployee, Employee secondEmployee)
@@ -42,6 +47,10 @@ namespace AbstractClass
             if (firstEmployee.employeeID != secondEmployee.employeeID)
             {
                 return false;
+            }
+            else
+            {
+                return true;
             }
         }
     }
