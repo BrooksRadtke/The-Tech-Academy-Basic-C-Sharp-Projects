@@ -10,20 +10,11 @@ namespace AbstractClass
     // Make employee class take a generic parameter
     class Employee<T> : Person, IQuittable
     {
-        public int employeeID;
+        public int employeeID { get; set; }
 
         // Add generic list property to Employee class called "Things"
         // that matches class generic type
-        public List<T> Things = new List<T>();
-
-        // Instantiate an Employee obj with type string as generic parameter
-        // Assign a list of strings
-        public Things<string> stringThings = new Things<string>()
-        {
-            "Coffee",
-            "Computer",
-            "Pay-Check"
-        };
+        //public List<T> Things { get; set; }
 
         // Overide SayName() to implement
         public override void SayName()
