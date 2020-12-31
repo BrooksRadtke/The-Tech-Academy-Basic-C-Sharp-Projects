@@ -8,13 +8,32 @@ namespace Twenty_One
 {
     public class Card
     {
-        // Contructor - "values assigned to an object upon creation"
-        public Card()
-        {
-            suit = "Spades";
-            face = "2";
-        }
-        public string suit { get; set; }
-        public string face { get; set; }
+        public Suit Suit { get; set; }
+        public Face Face { get; set; }
+    }
+
+    public enum Suit
+    {
+        Clubs,
+        Diamonds,
+        Hearts,
+        Spades
+    }
+
+    public enum Face
+    {
+        Two,
+        Three,
+        Four,
+        Five,
+        Six,
+        Seven,
+        Eight,
+        Nine,
+        Ten,
+        Jack,
+        Queen,
+        King,
+        Ace
     }
 }

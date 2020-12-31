@@ -8,18 +8,18 @@ namespace Twenty_One
 {
     public abstract class Game
     {
-        public List<Player> players { get; set; }
+        //public List<Player> players { get; set; }
         public string name { get; set; }
         public string dealer { get; set; }
 
         public abstract void Play();
 
-        public virtual void ListPlayers()
-        {
-            foreach(Player player in players)
-            {
-                Console.WriteLine(player.name);
-            }
-        }
+        //public virtual void ListPlayers()
+        //{
+        //    foreach(Player player in players)
+        //    {
+        //        Console.WriteLine(player.name);
+        //    }
+        //}
     }
 }

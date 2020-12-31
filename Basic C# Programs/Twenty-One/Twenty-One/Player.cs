@@ -13,16 +13,16 @@ namespace Twenty_One
         public string name { get; set; }
         public bool isActivelyPlaying { get; set; }
 
-        public static Game operator+ (Game game, Player player)
-        {
-            game.players.Add(player);
-            return game;
-        }
+        //public static Game operator+ (Game game, Player player)
+        //{
+        //    game.players.Add(player);
+        //    return game;
+        //}
 
-        public static Game operator- (Game game, Player player)
-        {
-            game.players.Remove(player);
-            return game;
-        }
+        //public static Game operator- (Game game, Player player)
+        //{
+        //    game.players.Remove(player);
+        //    return game;
+        //}
     }
 }
