@@ -14,7 +14,7 @@ namespace AbstractClass
 
         // Add generic list property to Employee class called "Things"
         // that matches class generic type
-        //public List<T> Things { get; set; }
+        public List<T> Things { get; set; }
 
         // Overide SayName() to implement
         public override void SayName()
