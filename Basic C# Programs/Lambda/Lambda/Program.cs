@@ -13,25 +13,48 @@ namespace Lambda
             // Create a list of 10 employees with f/lname, and ID
             // At least 2 employees have fname Joe
 
-            var employeeList = new List<T>();
-            Employee emp1;
+            List<Employee> empList = new List<Employee>();
+            Employee emp1 = new Employee() { firstName = "Joe", lastName = "Furguson", ID = 1 };
+            Employee emp2 = new Employee() { firstName = "Margaret", lastName = "Thatcher", ID = 2 };
+            Employee emp3 = new Employee() { firstName = "John", lastName = "Jacob", ID = 7 };
+            Employee emp4 = new Employee() { firstName = "Jing", lastName = "Le", ID = 8 };
+            Employee emp5 = new Employee() { firstName = "Heimer", lastName = "Schmitt", ID = 3 };
+            Employee emp6 = new Employee() { firstName = "Joe", lastName = "Smith", ID = 4 };
+            Employee emp7 = new Employee() { firstName = "Joe", lastName = "Seph", ID = 6 };
+            Employee emp8 = new Employee() { firstName = "Joe", lastName = "Hood", ID = 5 };
+            Employee emp9 = new Employee() { firstName = "Red", lastName = "Hood", ID = 9 };
+            Employee emp10 = new Employee() { firstName = "Erik", lastName = "Gross", ID = 1 };
+            empList.Add(emp1);
+            empList.Add(emp2);
+            empList.Add(emp3);
+            empList.Add(emp4);
+            empList.Add(emp5);
+            empList.Add(emp6);
+            empList.Add(emp7);
+            empList.Add(emp8);
+            empList.Add(emp9);
+            empList.Add(emp10);
 
-            emp1.firstName = "Joe";
-            emp1.lastName = "Furguson";
-            emp1.ID = 2212;
-            employeeList.Add(emp1);
+            // Uses a foreach loop to create a new list of Joes
+            //List<Employee> joeList = new List<Employee>();
 
-            //var employees = new List<Tuple<string, string, int>>();
-            //employees.Add(Tuple.Create("Joe", "Furguson", 2212));
-            //employees.Add(Tuple.Create("Margaret", "Thatcher", 194));
-            //employees.Add(Tuple.Create("John", "Jacob", 789));
-            //employees.Add(Tuple.Create("Jing", "Le", 188));
-            //employees.Add(Tuple.Create("Heimer", "Schmitt", 103));
-            //employees.Add(Tuple.Create("Joe", "Smith", 023));
-            //employees.Add(Tuple.Create("Joe", "Seph", 321));
-            //employees.Add(Tuple.Create("Joe", "Hood", 91829));
-            //employees.Add(Tuple.Create("Red", "Hood", 14793));
-            //employees.Add(Tuple.Create("Erik", "Gross", 1));
+            //foreach (Employee employee in empList)
+            //{
+            //    if (employee.firstName == "Joe")
+            //    {
+            //        joeList.Add(employee);
+            //    }
+            //}
+
+            //Console.WriteLine(joeList);
+            //Console.ReadLine();
+
+            // Uses a lambda to create list of Joes
+            List<Employee> joeList = new List<Employee>();
+            joeList = empList.Count(x => x.firstName == firstName.Joe);
+
+            Console.WriteLine(joeList);
+            Console.ReadLine();
         }
 
         public struct Employee
