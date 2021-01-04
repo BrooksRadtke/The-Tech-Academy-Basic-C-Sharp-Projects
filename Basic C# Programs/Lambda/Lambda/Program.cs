@@ -58,13 +58,22 @@ namespace Lambda
 
             // Uses a lambda to create list of Joes
             List<Employee> joeList = new List<Employee>();
-            joeList = empList.Count(x => x.firstName == "Joe");
-
-            Console.WriteLine(joeList);
+            joeList = empList.Where(x => x.firstName == "Joe").ToList();
+            foreach(Employee joe in joeList)
+            {
+                Console.WriteLine(joe.firstName + " " + joe.lastName + " " + joe.ID);
+            }
             Console.ReadLine();
 
+            // Checks for employees with id over 5, and adds them to list
+            // Prints each item in the list
             List<Employee> idCheckList = new List<Employee>();
-            idCheckList = empList.Count(x => x.ID > 5);
+            idCheckList = empList.Where(x => x.ID > 5).ToList();
+            foreach(Employee emp in idCheckList)
+            {
+                Console.WriteLine(emp.firstName + " " + emp.lastName + " " + emp.ID);
+            }
+            Console.ReadLine();
         }
 
         public struct Employee

@@ -32,7 +32,7 @@ namespace Twenty_One
                 game -= player;
                 Console.WriteLine("Thank you for playing!");
             }
-            Console.WriteLine("Thank you, bye for now!");
+            Console.WriteLine("Bye for now!");
             Console.ReadLine();
         }
     }

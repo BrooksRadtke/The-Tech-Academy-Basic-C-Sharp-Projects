@@ -20,6 +20,7 @@ namespace Twenty_One
             Dealer.Hand = new List<Card>();
             Dealer.Stay = false;
             Dealer.deck = new Deck();
+            Dealer.deck.Shuffle();
             Console.WriteLine("Place your bet!");
 
             foreach(Player player in players)
@@ -62,6 +63,7 @@ namespace Twenty_One
                         {
                             Dealer.balance += entry.Value;
                         }
+                        return;
                     }
                 }
             }
@@ -72,7 +74,7 @@ namespace Twenty_One
                     Console.WriteLine("You're cards are: ");
                     foreach (Card card in player.Hand)
                     {
-                        Console.Write("{0}", card.ToString());
+                        Console.Write("{0} ", card.ToString());
                     }
                     Console.WriteLine("\n\nHit or stay?");
                     string answer = Console.ReadLine().ToLower();
@@ -96,10 +98,12 @@ namespace Twenty_One
                         if(answer == "yes" || answer == "y")
                         {
                             player.isActivelyPlaying = true;
+                            return;
                         }
                         else
                         {
                             player.isActivelyPlaying = false;
+                            return;
                         }
                     }
                 }

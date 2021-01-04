@@ -8,9 +8,12 @@ namespace Twenty_One
 {
     public abstract class Game
     {
-        public List<Player> players { get; set; }
+        private List<Player> _player = new List<Player>();
+        private Dictionary<Player, int> _bets = new Dictionary<Player, int>();
+
+        public List<Player> players { get { return _player; } set { _player = value; } }
         public string Name { get; set; }
-        public Dictionary<Player, int> Bets { get; set; }
+        public Dictionary<Player, int> Bets { get { return _bets; } set { _bets = value; } }
 
         public abstract void Play();
 
