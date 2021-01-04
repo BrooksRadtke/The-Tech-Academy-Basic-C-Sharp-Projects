@@ -38,6 +38,8 @@ namespace Lambda
             // Uses a foreach loop to create a new list of Joes
             //List<Employee> joeList = new List<Employee>();
 
+            // Checks through the employee list for any fnames of joe
+            // if found, is added to new list
             //foreach (Employee employee in empList)
             //{
             //    if (employee.firstName == "Joe")
@@ -46,15 +48,23 @@ namespace Lambda
             //    }
             //}
 
-            //Console.WriteLine(joeList);
+            //// Prints name and information for each item in list
+            //foreach(Employee joe in joeList)
+            //{
+            //    Console.WriteLine(joe.firstName + " " + joe.lastName + " " + joe.ID);
+            //}
+
             //Console.ReadLine();
 
             // Uses a lambda to create list of Joes
             List<Employee> joeList = new List<Employee>();
-            joeList = empList.Count(x => x.firstName == firstName.Joe);
+            joeList = empList.Count(x => x.firstName == "Joe");
 
             Console.WriteLine(joeList);
             Console.ReadLine();
+
+            List<Employee> idCheckList = new List<Employee>();
+            idCheckList = empList.Count(x => x.ID > 5);
         }
 
         public struct Employee
