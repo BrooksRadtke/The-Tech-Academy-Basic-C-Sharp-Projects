@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Twenty_One
+namespace Casino.TwentyOne
 {
-    class Twenty_OneGame : Game, IWalkAway
+    public class TwentyOneGame : Game, IWalkAway
     {
         public TwentyOneDealer Dealer { get; set; }
         public override void Play()

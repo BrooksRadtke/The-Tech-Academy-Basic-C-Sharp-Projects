@@ -5,20 +5,28 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace DateTime
+namespace DateTimeProj
 {
     class Program
     {
-        public void Main(string[] args)
+        public static void Main(string[] args)
         {
-            DateTime datetime = new DateTime.Now;
-            Console.WriteLine(datetime);
+            // DateTime keyword was throwing errors because the namespace was named the same
+            // Changing namespace resolved errors 
 
-            Console.WriteLine("\n Hello! Please enter a number, and I will " +
+            DateTime data = DateTime.Now;
+            Console.WriteLine(data);
+
+            // Ask user to input a number to be converted into additional hours from now
+            Console.WriteLine("\nHello! Please enter a number, and I will " +
                 "tell you what time it will be in that many hours from now:");
-            int userInput = Convert.ToInt32(Console.ReadLine());
+            double userInput = Convert.ToDouble(Console.ReadLine());
 
+            // Convert input to display time
+            DateTime later = data.AddHours(userInput);
 
+            Console.WriteLine("It will be {0} {1} hour(s) from now", later, userInput);
+            Console.ReadLine();
         }
     }
 }
