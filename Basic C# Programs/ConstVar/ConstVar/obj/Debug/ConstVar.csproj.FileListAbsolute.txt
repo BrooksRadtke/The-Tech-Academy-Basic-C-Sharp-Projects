@@ -4,3 +4,4 @@ C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Acade
 C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ConstVar\ConstVar\obj\Debug\ConstVar.csproj.CoreCompileInputs.cache
 C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ConstVar\ConstVar\obj\Debug\ConstVar.exe
 C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ConstVar\ConstVar\obj\Debug\ConstVar.pdb
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ConstVar\ConstVar\obj\Debug\ConstVar.csprojAssemblyReference.cache

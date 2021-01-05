@@ -16,17 +16,10 @@ namespace ConstVar
             // Create a variable with the 'var' keyword
             var lineTwo = "It's a beautiful day in the neighborhood!";
 
-            // Chain two constructors together
-            // Creates default values for inherited parameters
-            public Foo() : this(1, "Brooks")
-                {
-                }
-
-            public Foo(int id, string name)
-            {
-                this.id = id;
-                this.name = name;
-            }
+            // Instantiate a new obj of chained constructors
+            Foo foo1 = new Foo();
+            Console.WriteLine(foo1);
+            Console.ReadLine();
         }
     }
 }
