@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Twenty_One
 {
@@ -15,7 +16,12 @@ namespace Twenty_One
         public void Deal(List<Card> hand)
         {
             hand.Add(deck.Cards.First());
-            Console.WriteLine(deck.Cards.First().ToString() + "\n");
+            string card = string.Format(deck.Cards.First().ToString() + "\n");
+            Console.WriteLine(card);
+            using (StreamWriter file = new StreamWriter(@"C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Twenty-One\Twenty-One\log.txt", true))
+            {
+                file.WriteLine(card);
+            }
             deck.Cards.RemoveAt(0);
         }
     }
