@@ -5,3 +5,6 @@ C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Acade
 C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Twenty-One\Twenty-One\obj\Debug\Twenty-One.csproj.CoreCompileInputs.cache
 C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Twenty-One\Twenty-One\obj\Debug\Twenty-One.exe
 C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Twenty-One\Twenty-One\obj\Debug\Twenty-One.pdb
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Twenty-One\Twenty-One\bin\Debug\Casino.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Twenty-One\Twenty-One\bin\Debug\Casino.pdb
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Twenty-One\Twenty-One\obj\Debug\Twenty-One.csproj.CopyComplete

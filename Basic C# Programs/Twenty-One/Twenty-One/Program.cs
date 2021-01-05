@@ -24,6 +24,11 @@ namespace Casino
             if(answer == "yes" || answer == "yeah" || answer == "y")
             {
                 Player player = new Player(playerName, bank);
+                player.ID = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Twenty-One\Twenty-One\log.txt", true))
+                {
+                    file.WriteLine(player.ID);
+                }
                 Game game = new TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;
