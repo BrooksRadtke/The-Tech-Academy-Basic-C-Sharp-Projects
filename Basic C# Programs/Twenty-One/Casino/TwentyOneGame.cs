@@ -21,11 +21,25 @@ namespace Casino.TwentyOne
             Dealer.Stay = false;
             Dealer.deck = new Deck();
             Dealer.deck.Shuffle();
-            Console.WriteLine("Place your bet!");
 
             foreach(Player player in players)
             {
-                int bet = Convert.ToInt32(Console.ReadLine());
+                bool validAnswer = false;
+                int bet = 0;
+                while(!validAnswer)
+                {
+                    Console.WriteLine("Place your bet!");
+                    validAnswer = int.TryParse(Console.ReadLine(), out bet);
+                    if(!validAnswer)
+                    {
+                        Console.WriteLine("Please only enter whole numbers:");
+                    }
+                }
+                if(bet < 0)
+                {
+                    throw new FraudException();
+                }
+
                 bool succussfullyBet = player.Bet(bet);
                 if(!succussfullyBet)
                 {
@@ -45,7 +59,7 @@ namespace Casino.TwentyOne
                         bool blackJack = TwentyOneRules.CheckForBlackJack(player.Hand);
                         if(blackJack)
                         {
-                            Console.WriteLine("Blackjack! {0} wins {1}!", player.Name, Bets[player]);
+                            Console.WriteLine("Blackjack! {0} wins {1}! You're balance is {3}", player.Name, Bets[player], player.Balance);
                             player.Balance += Convert.ToInt32((Bets[player] * 1.5) + Bets[player]);
                             return;
                         }

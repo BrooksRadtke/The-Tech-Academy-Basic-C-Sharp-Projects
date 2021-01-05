@@ -17,8 +17,16 @@ namespace ConstVar
             var lineTwo = "It's a beautiful day in the neighborhood!";
 
             // Chain two constructors together
-            Console.WriteLine(lineOne + " " + lineTwo);
-            Console.ReadLine();
+            // Creates default values for inherited parameters
+            public Foo() : this(1, "Brooks")
+                {
+                }
+
+            public Foo(int id, string name)
+            {
+                this.id = id;
+                this.name = name;
+            }
         }
     }
 }

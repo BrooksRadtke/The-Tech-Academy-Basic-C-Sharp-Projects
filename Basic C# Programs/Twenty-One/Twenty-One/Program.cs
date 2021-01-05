@@ -15,9 +15,18 @@ namespace Casino
             Console.WriteLine("Welcome to a friendly game of Twenty-One! With whom " +
                 "do I have the pleasure of playing with today?");
             string playerName = Console.ReadLine();
-            
-            Console.WriteLine("Hello, {0}! How much is you're buy-in today?", playerName);
-            int bank = Convert.ToInt32(Console.ReadLine());
+
+            bool validAnswer = false;
+            int bank = 0;
+            while(!validAnswer)
+            {
+                Console.WriteLine("Hello, {0}! How much is you're buy-in today?", playerName);
+                validAnswer = int.TryParse(Console.ReadLine(), out bank);
+                if(!validAnswer)
+                {
+                    Console.WriteLine("Please enter only whole numbers. Thank you! Please try again:");
+                }
+            }
             
             Console.WriteLine("Would you like to begin a game of 21?");
             string answer = Console.ReadLine().ToLower();
@@ -34,7 +43,24 @@ namespace Casino
                 player.isActivelyPlaying = true;
                 while(player.isActivelyPlaying && player.Balance > 0)
                 {
-                    game.Play();
+                    try
+                    {
+                        game.Play();
+                    }
+                    catch(FraudException)
+                    {
+                        Console.WriteLine("Thank you. You will be escorted out by security " +
+                            "personel immediately.");
+                        Console.ReadLine();
+                        return;
+                    }
+                    catch(Exception)
+                    {
+                        Console.WriteLine("Apolgies. An error has occurred. Please contact " +
+                            "your System Administrator.");
+                        Console.ReadLine();
+                        return;
+                    }
                 }
                 game -= player;
                 Console.WriteLine("Thank you for playing!");
