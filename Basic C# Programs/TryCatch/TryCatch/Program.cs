@@ -31,13 +31,11 @@ namespace TryCatch
                         // Displays error if input is over a range
                         throw new TooOldException();
                     }
-                    else if (!validAnswer)
-                    {
-                        throw new FormatException();
-                    }
+                    
                     else
                     {
                         // Display the year the user was born
+                        validAnswer = true;
                         Console.WriteLine("You were born {0}", yearBorn);
                         Console.ReadLine();
                     }
