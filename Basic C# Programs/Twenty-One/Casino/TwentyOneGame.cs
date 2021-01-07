@@ -37,7 +37,7 @@ namespace Casino.TwentyOne
                 }
                 if(bet < 0)
                 {
-                    throw new FraudException();
+                    throw new FraudException("Security: escort player immediately");
                 }
 
                 bool succussfullyBet = player.Bet(bet);
