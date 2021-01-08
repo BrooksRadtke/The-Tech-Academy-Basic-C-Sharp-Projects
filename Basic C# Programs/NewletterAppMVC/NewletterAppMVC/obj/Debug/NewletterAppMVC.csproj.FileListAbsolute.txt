@@ -77,3 +77,7 @@ C:\Users\brook\Desktop\NewletterAppMVC\NewletterAppMVC\obj\Debug\NewletterAppMVC
 C:\Users\brook\Desktop\NewletterAppMVC\NewletterAppMVC\obj\Debug\NewletterAppMVC.csproj.CopyComplete
 C:\Users\brook\Desktop\NewletterAppMVC\NewletterAppMVC\obj\Debug\NewletterAppMVC.dll
 C:\Users\brook\Desktop\NewletterAppMVC\NewletterAppMVC\obj\Debug\NewletterAppMVC.pdb
+C:\Users\brook\Desktop\NewletterAppMVC\NewletterAppMVC\bin\EntityFramework.dll
+C:\Users\brook\Desktop\NewletterAppMVC\NewletterAppMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\brook\Desktop\NewletterAppMVC\NewletterAppMVC\bin\EntityFramework.xml
+C:\Users\brook\Desktop\NewletterAppMVC\NewletterAppMVC\bin\EntityFramework.SqlServer.xml
