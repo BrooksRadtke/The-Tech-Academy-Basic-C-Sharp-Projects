@@ -1,4 +1,6 @@
-﻿using System;
+﻿using NewletterAppMVC.Models;
+using NewletterAppMVC.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -10,6 +12,11 @@ namespace NewletterAppMVC.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly string connectionString = @"Data Source=LAPTOP-8MGA2FJ3\SQLEXPRESS;Initial Catalog=Newsletter;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+
+        string queryString = @"INSERT INTO SignUps (FirstName, LastName, EmailAddress) VALUES 
+                                    (@FirstName, @LastName, @EmailAddress)";
+
         public ActionResult Index()
         {
             return View();
@@ -24,11 +31,6 @@ namespace NewletterAppMVC.Controllers
             }
             else
             {
-                string connectionString = @"Data Source=LAPTOP-8MGA2FJ3\SQLEXPRESS;Initial Catalog=Newsletter;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-
-                string queryString = @"INSERT INTO SignUps (FirstName, LastName, EmailAddress) VALUES 
-                                    (@FirstName, @LastName, @EmailAddress)";
-
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     SqlCommand command = new SqlCommand(queryString, connection);
@@ -48,18 +50,39 @@ namespace NewletterAppMVC.Controllers
             }
         }
 
-        public ActionResult About()
+        public ActionResult Admin()
         {
-            ViewBag.Message = "Your application description page.";
+            string queryString = @"SELECT Id, FirstName, LastName, EmailAddress, SocialSecurityNumber from SignUps";
+            List<NewsletterSignUp> signups = new List<NewsletterSignUp>();
 
-            return View();
-        }
+            using(SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(queryString, connection);
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
+                while(reader.Read())
+                {
+                    var signup = new NewsletterSignUp();
+                    signup.Id = Convert.ToInt32(reader["Id"]);
+                    signup.FirstName = reader["FirstName"].ToString();
+                    signup.LastName = reader["LastName"].ToString();
+                    signup.EmailAddress = reader["EmailAddress"].ToString();
+                    signup.SocialSecurityNumber = reader["SocialSecurityNumber"].ToString();
+                    signups.Add(signup);
+                }
+            }
+            var signupVMs = new List<SignupVM>();
+            foreach(var signup in signups)
+            {
+                var signupVM = new SignupVM();
+                signupVM.FirstName = signup.FirstName;
+                signupVM.LastName = signup.LastName;
+                signupVM.EmailAddress = signup.EmailAddress;
+                signupVMs.Add(signupVM);
+            }
 
-            return View();
+            return View(signupVMs);
         }
     }
 }
