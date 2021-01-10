@@ -38,25 +38,6 @@ namespace CarInsurance.Controllers
         // GET: Insuree/Create
         public ActionResult Create()
         {
-            // Calculate a quote
-        public int baseQuote = 50;
-        // Determine user age from Database "DateOfBirth"
-        // assign additional fees based on age group
-        var insureeAge = Insuree.DateOfBirth;
-
-            if(var insureeAge < 18)
-                {
-                    baseQuote += 100;
-                }
-            else if((var insureeAge >= 19) && (var insureeAge <= 25))
-                {
-                    baseQuote += 50;
-                }
-            else
-                {
-                    baseQuote += 25;
-                }
-
             return View();
         }
 
@@ -69,6 +50,64 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                // Add Logic HERE
+                // Start with base quote = $50
+                insuree.Quote = 50;
+
+                int insureeAge = DateTime.Now.Year - insuree.DateOfBirth.Year;
+
+                // Adjust quote based on user's age
+                if(insureeAge <= 18)
+                {
+                    insuree.Quote += 100;
+                }
+                else if((insureeAge >= 19) && (insureeAge <= 25))
+                {
+                    insuree.Quote += 50;
+                }
+                else
+                {
+                    insuree.Quote += 25;
+                }
+
+                // Adjust quote based on car's year of manufacture
+                if((insuree.CarYear < 2000) || (insuree.CarYear > 2015))
+                {
+                    insuree.Quote += 25;
+                }
+
+                // Adjust quote if Car Make is a Porsche
+                if(insuree.CarMake == "Porsche")
+                {
+                    insuree.Quote += 25;
+                }
+
+                // Adjust quote Car Make is a Porsche and CarModel is 911 Carrera
+                if((insuree.CarMake == "Porsche") && (insuree.CarModel == "911 Carrera"))
+                {
+                    insuree.Quote += 25;
+                }
+
+                // Add $10 to the monthly total for each speedingTicket
+                for(int i = 0; i < insuree.SpeedingTickets; i++)
+                {
+                    insuree.Quote += 10;
+                }
+
+                // If user has DUI, add 25% to total
+                decimal DUIQuote = decimal.Multiply(insuree.Quote, .25m);
+                if (insuree.DUI == true)
+                {
+                    insuree.Quote += DUIQuote;
+                }
+
+                // If has Full Coverage, add 50% to total
+                decimal fullCoverage = decimal.Multiply(insuree.Quote, .5m);
+                if(insuree.CoverageType == true)
+                {
+                    insuree.Quote += fullCoverage;
+                }
+                
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
