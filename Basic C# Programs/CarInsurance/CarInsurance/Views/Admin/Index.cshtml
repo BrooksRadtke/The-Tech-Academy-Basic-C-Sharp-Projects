@@ -1,5 +1,5 @@
-﻿@using CarInsurance.ViewModels
-@model List<InsureeVM>
+﻿@using CarInsurance.Models
+@model List<Insuree>
 
 <div class="row no-gutters m-3">
   <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
@@ -23,14 +23,11 @@
               @insuree.EmailAddress
             </div>
             <div class="col">
-              @insuree.LastName
-            </div>
-            <div class="col">
               @insuree.Quote
             </div>
             <div class="col">
               <button type="submit" class="btn btn-danger btn-block">
-                Unsubscribe
+                Remove
               </button>
             </div>
           </div>

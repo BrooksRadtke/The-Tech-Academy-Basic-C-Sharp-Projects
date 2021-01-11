@@ -81,3 +81,5 @@ C:\Users\brook\Desktop\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.C
 C:\Users\brook\Desktop\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.CopyComplete
 C:\Users\brook\Desktop\CarInsurance\CarInsurance\obj\Debug\CarInsurance.dll
 C:\Users\brook\Desktop\CarInsurance\CarInsurance\obj\Debug\CarInsurance.pdb
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CarInsurance\CarInsurance\obj\Debug\CarInsurance.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CarInsurance\CarInsurance\obj\Debug\CarInsurance.pdb
