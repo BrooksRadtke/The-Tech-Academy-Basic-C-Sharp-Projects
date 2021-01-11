@@ -1,0 +1,64 @@
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.csprojAssemblyReference.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.AssemblyInfoInputs.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.AssemblyInfo.cs
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.csproj.CoreCompileInputs.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.pdb
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\CodeFirstStudentDatabase.exe
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\CodeFirstStudentDatabase.deps.json
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\CodeFirstStudentDatabase.runtimeconfig.json
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\CodeFirstStudentDatabase.runtimeconfig.dev.json
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\CodeFirstStudentDatabase.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\CodeFirstStudentDatabase.pdb
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.csprojAssemblyReference.cache
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.AssemblyInfoInputs.cache
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.AssemblyInfo.cs
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.csproj.CoreCompileInputs.cache
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.csproj.CopyComplete
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.dll
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.pdb
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.genruntimeconfig.cache
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.Migrations.InitialCreate.resources
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.csproj.GenerateResource.cache
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.Migrations.AddUser.resources
+C:\Users\brook\Desktop\CodeFirstStudentDatabase\CodeFirstStudentDatabase\obj\Debug\netcoreapp3.1\CodeFirstStudentDatabase.Migrations.ChangeDisplayName.resources

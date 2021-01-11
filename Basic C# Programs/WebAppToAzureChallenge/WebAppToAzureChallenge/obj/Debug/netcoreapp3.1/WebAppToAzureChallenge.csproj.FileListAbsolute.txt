@@ -1,0 +1,45 @@
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.AssemblyInfoInputs.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.AssemblyInfo.cs
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.csproj.CoreCompileInputs.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.RazorAssemblyInfo.cache
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.RazorAssemblyInfo.cs
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.dll
+C:\Users\brook\Documents\TechAcademy\GitHub\Tech-Academy-Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.pdb
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\bin\Debug\netcoreapp3.1\WebAppToAzureChallenge.exe
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\bin\Debug\netcoreapp3.1\WebAppToAzureChallenge.deps.json
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\bin\Debug\netcoreapp3.1\WebAppToAzureChallenge.runtimeconfig.json
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\bin\Debug\netcoreapp3.1\WebAppToAzureChallenge.runtimeconfig.dev.json
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\bin\Debug\netcoreapp3.1\WebAppToAzureChallenge.dll
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\bin\Debug\netcoreapp3.1\WebAppToAzureChallenge.pdb
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\bin\Debug\netcoreapp3.1\WebAppToAzureChallenge.Views.dll
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\bin\Debug\netcoreapp3.1\WebAppToAzureChallenge.Views.pdb
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.csprojAssemblyReference.cache
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.AssemblyInfoInputs.cache
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.AssemblyInfo.cs
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.csproj.CoreCompileInputs.cache
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.RazorAssemblyInfo.cache
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.RazorAssemblyInfo.cs
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\staticwebassets\WebAppToAzureChallenge.StaticWebAssets.Manifest.cache
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\staticwebassets\WebAppToAzureChallenge.StaticWebAssets.xml
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebAppToAzureChallenge.styles.css
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.TagHelpers.input.cache
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.TagHelpers.output.cache
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.RazorCoreGenerate.cache
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.RazorTargetAssemblyInfo.cache
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.RazorTargetAssemblyInfo.cs
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.Views.pdb
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.dll
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.pdb
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.genruntimeconfig.cache
+C:\Users\brook\Desktop\WebAppToAzureChallenge\WebAppToAzureChallenge\obj\Debug\netcoreapp3.1\WebAppToAzureChallenge.csproj.CopyComplete
