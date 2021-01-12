@@ -20,4 +20,16 @@ An exercise on boolean loops, including while, do-while, switches.
 An introduction to branching with if statements, and includes an terniary operator.
 
 #### [CarInsurance](https://github.com/BrooksRadtke/The-Tech-Academy-Basic-C-Sharp-Projects/tree/main/Basic%20C%23%20Programs/CarInsurance)
-This project is a more complex exercise utilizing the Entity Framework with an MVC model. A database is created from user input through the website, and logic calulates the final monthly quote of the insuree.
+This project is a more complex exercise utilizing the Entity Framework with an MVC model. A database is created from user input through the website, and business logic calulates the final monthly quote of the insuree. This also includes an Admin page view of database entries. 
+
+#### [CodeFirstStudentDatabase](https://github.com/BrooksRadtke/The-Tech-Academy-Basic-C-Sharp-Projects/tree/main/Basic%20C%23%20Programs/CodeFirstStudentDatabase)
+This project uses the Code-First approach to create a database with the Entity Framework.
+
+#### [ConsoleApp](https://github.com/BrooksRadtke/The-Tech-Academy-Basic-C-Sharp-Projects/tree/main/Basic%20C%23%20Programs/ConsoleApp)
+This project contains a series of simple programming challenges, including creating a 1-Dimensional string using a For loop to print items and user input, displaying how to create an infinite loop, creating a comparison loop, using a boolean loop that prints all items of a list, creating a that searches through a list and displays the matching indexes, and using a foreach loop to check for duplicates in a list.
+
+#### [ConsoleMathChallenge](https://github.com/BrooksRadtke/The-Tech-Academy-Basic-C-Sharp-Projects/tree/main/Basic%20C%23%20Programs/ConsoleMathChallenge)
+A simple, and friendly, console application that performs basic math on user input.
+
+#### [ConstVar](https://github.com/BrooksRadtke/The-Tech-Academy-Basic-C-Sharp-Projects/tree/main/Basic%20C%23%20Programs/ConstVar)
+A simple exercise using datatypes const and var, while also using chained constructors.
