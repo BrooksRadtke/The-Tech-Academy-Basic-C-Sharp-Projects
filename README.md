@@ -1,5 +1,17 @@
 # The-Tech-Academy-Basic-C-Sharp-Projects
 Hello! This repository contains many examples of C# exercises I've worked on. Please feel free to preview the projects and their brief descriptions below:
 
-## [ACME Accounting](https://github.com/BrooksRadtke/The-Tech-Academy-Basic-C-Sharp-Projects/tree/main/Basic%20C%23%20Programs/ACME%20Accounting)
+### [ACME Accounting](https://github.com/BrooksRadtke/The-Tech-Academy-Basic-C-Sharp-Projects/tree/main/Basic%20C%23%20Programs/ACME%20Accounting)
+Description here
+
+### [AbstractClass](https://github.com/BrooksRadtke/The-Tech-Academy-Basic-C-Sharp-Projects/tree/main/Basic%20C%23%20Programs/AbstractClass)
+Description here
+
+### [ArraysAndLists](https://github.com/BrooksRadtke/The-Tech-Academy-Basic-C-Sharp-Projects/tree/main/Basic%20C%23%20Programs/ArraysAndLists)
+Description here
+
+### [BooleanLogic](https://github.com/BrooksRadtke/The-Tech-Academy-Basic-C-Sharp-Projects/tree/main/Basic%20C%23%20Programs/BooleanLogic)
+Description here
+
+### [BooleanLoops](https://github.com/BrooksRadtke/The-Tech-Academy-Basic-C-Sharp-Projects/tree/main/Basic%20C%23%20Programs/BooleanLoops)
 Description here
