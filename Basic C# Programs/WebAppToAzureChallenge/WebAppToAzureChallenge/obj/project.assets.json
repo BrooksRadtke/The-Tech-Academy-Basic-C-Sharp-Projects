@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brook\\Desktop\\WebAppToAzureChallenge\\WebAppToAzureChallenge\\WebAppToAzureChallenge.csproj",
+      "projectUniqueName": "C:\\Users\\brook\\Documents\\TechAcademy\\GitHub\\Tech-Academy-Projects\\The-Tech-Academy-Basic-C-Sharp-Projects\\Basic C# Programs\\WebAppToAzureChallenge\\WebAppToAzureChallenge\\WebAppToAzureChallenge.csproj",
       "projectName": "WebAppToAzureChallenge",
-      "projectPath": "C:\\Users\\brook\\Desktop\\WebAppToAzureChallenge\\WebAppToAzureChallenge\\WebAppToAzureChallenge.csproj",
+      "projectPath": "C:\\Users\\brook\\Documents\\TechAcademy\\GitHub\\Tech-Academy-Projects\\The-Tech-Academy-Basic-C-Sharp-Projects\\Basic C# Programs\\WebAppToAzureChallenge\\WebAppToAzureChallenge\\WebAppToAzureChallenge.csproj",
       "packagesPath": "C:\\Users\\brook\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brook\\Desktop\\WebAppToAzureChallenge\\WebAppToAzureChallenge\\obj\\",
+      "outputPath": "C:\\Users\\brook\\Documents\\TechAcademy\\GitHub\\Tech-Academy-Projects\\The-Tech-Academy-Basic-C-Sharp-Projects\\Basic C# Programs\\WebAppToAzureChallenge\\WebAppToAzureChallenge\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brook\\AppData\\Roaming\\NuGet\\NuGet.Config",
