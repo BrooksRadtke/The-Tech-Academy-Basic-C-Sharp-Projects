@@ -81,3 +81,10 @@ C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniv
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CopyComplete
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.dll
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\bin\PagedList.dll
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.dll
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.cache
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate1.resources
