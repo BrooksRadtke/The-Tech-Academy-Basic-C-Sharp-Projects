@@ -88,3 +88,7 @@ C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.cache
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate1.resources
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.Instructor.resources
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.Department.resources
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.Enrollment.resources
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.OfficeAssignment.resources

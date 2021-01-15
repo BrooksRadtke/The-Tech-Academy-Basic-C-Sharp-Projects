@@ -154,6 +154,22 @@
     <Compile Include="Migrations\202101142118557_InitialCreate1.Designer.cs">
       <DependentUpon>202101142118557_InitialCreate1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202101151706193_Instructor.cs" />
+    <Compile Include="Migrations\202101151706193_Instructor.Designer.cs">
+      <DependentUpon>202101151706193_Instructor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202101151708179_Department.cs" />
+    <Compile Include="Migrations\202101151708179_Department.Designer.cs">
+      <DependentUpon>202101151708179_Department.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202101151708479_Enrollment.cs" />
+    <Compile Include="Migrations\202101151708479_Enrollment.Designer.cs">
+      <DependentUpon>202101151708479_Enrollment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202101151709175_OfficeAssignment.cs" />
+    <Compile Include="Migrations\202101151709175_OfficeAssignment.Designer.cs">
+      <DependentUpon>202101151709175_OfficeAssignment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Department.cs" />
@@ -241,6 +257,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202101142118557_InitialCreate1.resx">
       <DependentUpon>202101142118557_InitialCreate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101151706193_Instructor.resx">
+      <DependentUpon>202101151706193_Instructor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101151708179_Department.resx">
+      <DependentUpon>202101151708179_Department.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101151708479_Enrollment.resx">
+      <DependentUpon>202101151708479_Enrollment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101151709175_OfficeAssignment.resx">
+      <DependentUpon>202101151709175_OfficeAssignment.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
