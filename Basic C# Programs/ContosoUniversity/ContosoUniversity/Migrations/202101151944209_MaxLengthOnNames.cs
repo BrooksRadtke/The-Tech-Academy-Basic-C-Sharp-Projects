@@ -3,7 +3,7 @@ namespace ContosoUniversity.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialCreate1 : DbMigration
+    public partial class MaxLengthOnNames : DbMigration
     {
         public override void Up()
         {

@@ -5,6 +5,9 @@ namespace ContosoUniversity.Migrations
     
     public partial class OfficeAssignment : DbMigration
     {
+        public object InstructorID { get; internal set; }
+        public string Location { get; internal set; }
+
         public override void Up()
         {
         }

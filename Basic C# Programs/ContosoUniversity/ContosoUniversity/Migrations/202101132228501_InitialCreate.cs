@@ -47,13 +47,13 @@ namespace ContosoUniversity.Migrations
         
         public override void Down()
         {
-            DropForeignKey("dbo.Enrollments", "StudentID", "dbo.Students");
-            DropForeignKey("dbo.Enrollments", "CourseID", "dbo.Courses");
-            DropIndex("dbo.Enrollments", new[] { "StudentID" });
-            DropIndex("dbo.Enrollments", new[] { "CourseID" });
-            DropTable("dbo.Students");
-            DropTable("dbo.Enrollments");
-            DropTable("dbo.Courses");
+            DropForeignKey("dbo.Enrollment", "StudentID", "dbo.Student");
+            DropForeignKey("dbo.Enrollment", "CourseID", "dbo.Course");
+            DropIndex("dbo.Enrollment", new[] { "StudentID" });
+            DropIndex("dbo.Enrollment", new[] { "CourseID" });
+            DropTable("dbo.Student");
+            DropTable("dbo.Enrollment");
+            DropTable("dbo.Course");
         }
     }
 }

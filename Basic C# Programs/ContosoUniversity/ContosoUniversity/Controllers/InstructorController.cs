@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -98,30 +99,52 @@ namespace ContosoUniversity.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Instructor instructor = db.Instructors.Find(id);
+            Instructor instructor = db.Instructors
+                .Include(i => i.OfficeAssignment)
+                .Where(i => i.ID == id)
+                .Single();
             if (instructor == null)
             {
                 return HttpNotFound();
             }
-            ViewBag.ID = new SelectList(db.OfficeAssignments, "InstructorID", "Location", instructor.ID);
             return View(instructor);
         }
 
         // POST: Instructor/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost, ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,LastName,FirstName,HireDate")] Instructor instructor)
+        public ActionResult EditPost(int? id)
         {
-            if (ModelState.IsValid)
+            if (id == null)
             {
-                db.Entry(instructor).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            ViewBag.ID = new SelectList(db.OfficeAssignments, "InstructorID", "Location", instructor.ID);
-            return View(instructor);
+            var instructorToUpdate = db.Instructors
+                .Include(i => i.OfficeAssignment)
+                .Where(i => i.ID == id)
+                .Single();
+
+            if(TryUpdateModel(instructorToUpdate, "",
+                new string[] { "LastName", "Firstname","HireDate","OfficeAssignment"}))
+            {
+                try
+                {
+                    if(String.IsNullOrWhiteSpace(instructorToUpdate.OfficeAssignment.Location))
+                    {
+                        instructorToUpdate.OfficeAssignment = null;
+                    }
+                    db.SaveChanges();
+                }
+                catch(RetryLimitExceededException /* dex */)
+                {
+                    // Log error
+                    ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists, see your system administrator.");
+                }
+            }
+
+            return View(instructorToUpdate);
         }
 
         // GET: Instructor/Delete/5

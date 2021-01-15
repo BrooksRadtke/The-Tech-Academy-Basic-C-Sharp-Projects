@@ -25,13 +25,13 @@ namespace ContosoUniversity.DAL
         public override void ScalarExecuted(DbCommand command, DbCommandInterceptionContext<object> interceptionContext)
         {
             _stopwatch.Stop();
-            if(interceptionContext.Exception != null)
+            if (interceptionContext.Exception != null)
             {
                 _logger.Error(interceptionContext.Exception, "Error executing command: {0}", command.CommandText);
             }
             else
             {
-                _logger.TraceApi("SQL Database", "SchoolInterceptior.ScalarExecuted", _stopwatch.Elapsed, "Command: {0} ", command.CommandText);
+                _logger.TraceApi("SQL Database", "SchoolInterceptor.ScalarExecuted", _stopwatch.Elapsed, "Command: {0}: ", command.CommandText);
             }
             base.ScalarExecuted(command, interceptionContext);
         }
@@ -45,7 +45,7 @@ namespace ContosoUniversity.DAL
         public override void NonQueryExecuted(DbCommand command, DbCommandInterceptionContext<int> interceptionContext)
         {
             _stopwatch.Stop();
-            if(interceptionContext.Exception != null)
+            if (interceptionContext.Exception != null)
             {
                 _logger.Error(interceptionContext.Exception, "Error executing command: {0}", command.CommandText);
             }
@@ -61,11 +61,10 @@ namespace ContosoUniversity.DAL
             base.ReaderExecuting(command, interceptionContext);
             _stopwatch.Restart();
         }
-
         public override void ReaderExecuted(DbCommand command, DbCommandInterceptionContext<DbDataReader> interceptionContext)
         {
             _stopwatch.Stop();
-            if(interceptionContext.Exception != null)
+            if (interceptionContext.Exception != null)
             {
                 _logger.Error(interceptionContext.Exception, "Error executing command: {0}", command.CommandText);
             }

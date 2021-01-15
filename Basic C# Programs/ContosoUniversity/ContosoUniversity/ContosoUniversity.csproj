@@ -150,10 +150,6 @@
     <Compile Include="Migrations\202101132228501_InitialCreate.Designer.cs">
       <DependentUpon>202101132228501_InitialCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202101142118557_InitialCreate1.cs" />
-    <Compile Include="Migrations\202101142118557_InitialCreate1.Designer.cs">
-      <DependentUpon>202101142118557_InitialCreate1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\202101151706193_Instructor.cs" />
     <Compile Include="Migrations\202101151706193_Instructor.Designer.cs">
       <DependentUpon>202101151706193_Instructor.cs</DependentUpon>
@@ -169,6 +165,10 @@
     <Compile Include="Migrations\202101151709175_OfficeAssignment.cs" />
     <Compile Include="Migrations\202101151709175_OfficeAssignment.Designer.cs">
       <DependentUpon>202101151709175_OfficeAssignment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202101151944209_MaxLengthOnNames.cs" />
+    <Compile Include="Migrations\202101151944209_MaxLengthOnNames.Designer.cs">
+      <DependentUpon>202101151944209_MaxLengthOnNames.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
@@ -255,9 +255,6 @@
     <EmbeddedResource Include="Migrations\202101132228501_InitialCreate.resx">
       <DependentUpon>202101132228501_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101142118557_InitialCreate1.resx">
-      <DependentUpon>202101142118557_InitialCreate1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202101151706193_Instructor.resx">
       <DependentUpon>202101151706193_Instructor.cs</DependentUpon>
     </EmbeddedResource>
@@ -269,6 +266,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202101151709175_OfficeAssignment.resx">
       <DependentUpon>202101151709175_OfficeAssignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101151944209_MaxLengthOnNames.resx">
+      <DependentUpon>202101151944209_MaxLengthOnNames.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
