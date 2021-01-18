@@ -1,11 +1,3 @@
-C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
-C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.Instructor.resources
-C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.Department.resources
-C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.Enrollment.resources
-C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.OfficeAssignment.resources
-C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.MaxLengthOnNames.resources
-C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.cache
-C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CoreCompileInputs.cache
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.dll.config
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.dll
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.pdb
@@ -88,7 +80,11 @@ C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPag
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\bin\Newtonsoft.Json.xml
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\bin\Antlr3.Runtime.pdb
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.MaxLengthOnNames.resources
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.cache
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CoreCompileInputs.cache
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CopyComplete
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.dll
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
 C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csprojAssemblyReference.cache
+C:\Users\brook\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources

@@ -133,6 +133,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CourseController.cs" />
+    <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InstructorController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
@@ -146,29 +147,13 @@
     </Compile>
     <Compile Include="Logging\ILogger.cs" />
     <Compile Include="Logging\Logger.cs" />
-    <Compile Include="Migrations\202101132228501_InitialCreate.cs" />
-    <Compile Include="Migrations\202101132228501_InitialCreate.Designer.cs">
-      <DependentUpon>202101132228501_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202101151706193_Instructor.cs" />
-    <Compile Include="Migrations\202101151706193_Instructor.Designer.cs">
-      <DependentUpon>202101151706193_Instructor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202101151708179_Department.cs" />
-    <Compile Include="Migrations\202101151708179_Department.Designer.cs">
-      <DependentUpon>202101151708179_Department.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202101151708479_Enrollment.cs" />
-    <Compile Include="Migrations\202101151708479_Enrollment.Designer.cs">
-      <DependentUpon>202101151708479_Enrollment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202101151709175_OfficeAssignment.cs" />
-    <Compile Include="Migrations\202101151709175_OfficeAssignment.Designer.cs">
-      <DependentUpon>202101151709175_OfficeAssignment.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\202101151944209_MaxLengthOnNames.cs" />
     <Compile Include="Migrations\202101151944209_MaxLengthOnNames.Designer.cs">
       <DependentUpon>202101151944209_MaxLengthOnNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202101181951372_InitialCreate.cs" />
+    <Compile Include="Migrations\202101181951372_InitialCreate.Designer.cs">
+      <DependentUpon>202101181951372_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
@@ -176,8 +161,10 @@
     <Compile Include="Models\Enrollment.cs" />
     <Compile Include="Models\Instructor.cs" />
     <Compile Include="Models\OfficeAssignment.cs" />
+    <Compile Include="Models\Person.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\AssignedCourseData.cs" />
     <Compile Include="ViewModels\EnrollmentDateGroup.cs" />
     <Compile Include="ViewModels\InstructorIndexData.cs" />
   </ItemGroup>
@@ -234,6 +221,11 @@
     <Content Include="Views\Instructor\Details.cshtml" />
     <Content Include="Views\Instructor\Edit.cshtml" />
     <Content Include="Views\Instructor\Index.cshtml" />
+    <Content Include="Views\Department\Create.cshtml" />
+    <Content Include="Views\Department\Delete.cshtml" />
+    <Content Include="Views\Department\Details.cshtml" />
+    <Content Include="Views\Department\Edit.cshtml" />
+    <Content Include="Views\Department\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -252,23 +244,11 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202101132228501_InitialCreate.resx">
-      <DependentUpon>202101132228501_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101151706193_Instructor.resx">
-      <DependentUpon>202101151706193_Instructor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101151708179_Department.resx">
-      <DependentUpon>202101151708179_Department.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101151708479_Enrollment.resx">
-      <DependentUpon>202101151708479_Enrollment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101151709175_OfficeAssignment.resx">
-      <DependentUpon>202101151709175_OfficeAssignment.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202101151944209_MaxLengthOnNames.resx">
       <DependentUpon>202101151944209_MaxLengthOnNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101181951372_InitialCreate.resx">
+      <DependentUpon>202101181951372_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

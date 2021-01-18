@@ -13,7 +13,7 @@ namespace ContosoUniversity.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202101132228501_InitialCreate"; }
+            get { return "202101181951372_InitialCreate"; }
         }
         
         string IMigrationMetadata.Source
