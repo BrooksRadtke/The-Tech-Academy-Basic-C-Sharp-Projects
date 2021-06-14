@@ -1,0 +1,7 @@
+C:\Users\brook\Desktop\MultithreadedApp\MultithreadedApp\bin\Debug\MultithreadedApp.exe.config
+C:\Users\brook\Desktop\MultithreadedApp\MultithreadedApp\bin\Debug\MultithreadedApp.exe
+C:\Users\brook\Desktop\MultithreadedApp\MultithreadedApp\bin\Debug\MultithreadedApp.pdb
+C:\Users\brook\Desktop\MultithreadedApp\MultithreadedApp\obj\Debug\MultithreadedApp.csprojAssemblyReference.cache
+C:\Users\brook\Desktop\MultithreadedApp\MultithreadedApp\obj\Debug\MultithreadedApp.csproj.CoreCompileInputs.cache
+C:\Users\brook\Desktop\MultithreadedApp\MultithreadedApp\obj\Debug\MultithreadedApp.exe
+C:\Users\brook\Desktop\MultithreadedApp\MultithreadedApp\obj\Debug\MultithreadedApp.pdb
