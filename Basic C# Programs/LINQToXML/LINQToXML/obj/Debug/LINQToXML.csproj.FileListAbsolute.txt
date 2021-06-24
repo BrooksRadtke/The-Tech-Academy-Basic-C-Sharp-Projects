@@ -1,0 +1,7 @@
+C:\Users\brook\Desktop\LINQToXML\LINQToXML\bin\Debug\LINQToXML.exe.config
+C:\Users\brook\Desktop\LINQToXML\LINQToXML\bin\Debug\LINQToXML.exe
+C:\Users\brook\Desktop\LINQToXML\LINQToXML\bin\Debug\LINQToXML.pdb
+C:\Users\brook\Desktop\LINQToXML\LINQToXML\obj\Debug\LINQToXML.csproj.AssemblyReference.cache
+C:\Users\brook\Desktop\LINQToXML\LINQToXML\obj\Debug\LINQToXML.csproj.CoreCompileInputs.cache
+C:\Users\brook\Desktop\LINQToXML\LINQToXML\obj\Debug\LINQToXML.exe
+C:\Users\brook\Desktop\LINQToXML\LINQToXML\obj\Debug\LINQToXML.pdb
